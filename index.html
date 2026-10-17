@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Exam Binary</title>
+<meta name="description" content="Exam Binary runs a tuition centre from one place: admissions, classes, homework, exams, fees and AI, with a portal each for the office, teachers, students and parents.">
+<meta name="theme-color" content="#eef0f4">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/site.css">
+<script>if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('anim');</script>
+</head>
+<body>
+
+
+<div class="cursor" aria-hidden="true"><span class="cur-dot"></span><span class="cur-ring"><i class="cur-label"></i></span></div>
+<div class="grain" aria-hidden="true"></div>
+
+<div id="loader" aria-hidden="true">
+  <div class="ld-bits">01000101</div>
+  <div class="ld-num"><span class="ld-n">0</span></div>
+  <div class="ld-bar"><i></i></div>
+</div>
+
+<nav class="nav" aria-label="Main">
+  <a class="nav-logo" href="#top" aria-label="Exam Binary, back to top"><img src="assets/exam-binary-logo.png" alt="Exam Binary" width="800" height="216"></a>
+  <div class="nav-links">
+    <a href="#about" data-cur="link">About</a>
+    <a href="#portals" data-cur="link">Portals</a>
+    <a href="#flow" data-cur="link">Connected</a>
+    <a href="#ai" data-cur="link">AI</a>
+  </div>
+  <a class="btn btn-ink mag" href="#waitlist" data-cur="link"><span>Book a demo</span></a>
+</nav>
+
+<main id="top">
+
+<!-- ACT 1 · everything, pulled into one place -->
+<section class="hero act" id="hero" data-bg="#eef0f4" data-fg="#0e1b2c" data-fg2="#5b6676">
+  <div class="hero-pin">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <h1 class="h-hero">Your whole institution. <em class="glow">Working together.</em></h1>
+      <p class="hero-line">Teachers get AI help with lesson prep. Students get support between classes. You get a clear view of progress, attendance, fees and staff.</p>
+      <div class="hero-cta">
+        <a class="btn btn-brand mag" href="#waitlist" data-cur="link"><span>Book a demo</span></a>
+        <a class="btn btn-white mag" href="#portals" data-cur="link"><span>Take a look inside</span></a>
+      </div>
+    </div>
+
+    <div class="frame-wrap">
+      <div class="frame" aria-label="The Exam Binary office dashboard, with its cards sliding into place as you scroll">
+        <div class="base base-empty"><img src="assets/hero-empty.webp" alt="" width="1920" height="1200" fetchpriority="high"></div>
+        <div class="base base-full"><img src="assets/hero.webp" alt="Office dashboard: fees collected this term, active students, attendance, overdue invoices and what needs attention." width="1920" height="1200"></div>
+
+        <!-- the five cards that belong to this dashboard: they slide into their empty slots -->
+        <div class="frag land" data-f="0.16,0.46" data-s="1.05,-5" data-fm="0.26,0.82|0.95,-5" style="--x:11.11%;--y:18.28%;--w:41.53%"><div class="p"><img src="assets/frag/hero-card.webp" alt="" width="1196" height="838"></div></div>
+        <div class="frag land" data-f="0.60,-0.02" data-s="1.5,-5" data-fm="0.2,-0.05|1.4,-5" style="--x:54.03%;--y:18.28%;--w:20.07%"><div class="p"><img src="assets/frag/tile-students.webp" alt="" width="578" height="414"></div></div>
+        <div class="frag land" data-f="1.0,0.17" data-s="1.55,6" data-fm="0.9,0.16|1.4,6" style="--x:75.49%;--y:18.28%;--w:20.07%"><div class="p"><img src="assets/frag/tile-attendance.webp" alt="" width="578" height="414"></div></div>
+        <div class="frag land lg" data-f="0.70,0.55" data-s="1.35,4" style="--x:54.03%;--y:43.56%;--w:20.07%"><div class="p"><img src="assets/frag/tile-overdue.webp" alt="" width="578" height="382"></div></div>
+        <div class="frag land lg" data-f="1.02,0.54" data-s="1.5,-4" style="--x:75.49%;--y:43.56%;--w:20.07%"><div class="p"><img src="assets/frag/tile-enquiries.webp" alt="" width="578" height="382"></div></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACT 1b · about -->
+<section class="about act" id="about" data-bg="#eef0f4" data-fg="#0e1b2c" data-fg2="#5b6676">
+  <div class="about-head">
+    <p class="eyebrow"><span class="dot"></span>About ExamBinary</p>
+    <p class="about-tag">Built by Neovogent</p>
+  </div>
+  <p class="manifesto">Teaching is only part of the day. There are lessons to prepare, questions to answer, fees to follow up and people to look after. We built ExamBinary to <em class="glow">make the rest easier too,</em> with AI teaching tools, support for students between classes and one place to manage the work behind every lesson.</p>
+  <ul class="facts">
+    <li><b data-n="4">4</b><span>connected portals for teachers, students, parents and administrators</span></li>
+    <li><b data-n="1">1</b><span>place for classes, homework, student progress, fees and expenses</span></li>
+    <li><b>AI</b><span>help with lesson notes, presentations, exam preparation and student interviews</span></li>
+    <li><b>HR</b><span>staff management, attendance and AI interviews for potential hires</span></li>
+  </ul>
+</section>
+
+<!-- ACT 2 · four ways in -->
+<section class="portals act" id="portals" data-bg="#070e1a" data-fg="#f3f6fa" data-fg2="#8ea2b8">
+  <div class="portals-pin" data-active="0">
+    <div class="flood" aria-hidden="true"></div>
+    <div class="giant" aria-hidden="true">
+      <span>OFFICE</span><span>TEACHERS</span><span>STUDENTS</span><span>PARENTS</span>
+    </div>
+
+    <header class="portals-head">
+      <p class="eyebrow light">One centre · four ways in</p>
+      <p class="counter"><b class="count-n">01</b><span>/ 04</span></p>
+    </header>
+
+    <div class="stages">
+      <article class="stage" style="--pc:#1e88e5;--pc2:#125da3">
+        <div class="shot"><img src="assets/p-office.webp" alt="Office portal: every student with their classes, attendance and fees owed." width="1920" height="1200" loading="lazy"></div>
+        <div class="cap">
+          <h2 class="role">The office</h2>
+          <p class="role-line">Every student, family and fee on one screen.</p>
+          <p class="tags"><i>Admissions</i><i>Finance</i><i>Staff</i><i>Reports</i></p>
+        </div>
+        <div class="float f1" data-depth="26"><img src="assets/frag/enquiry-card.webp" alt="" width="352" height="264"></div>
+        <div class="float f2" data-depth="-18"><img src="assets/frag/tile-overdue.webp" alt="" width="578" height="382"></div>
+      </article>
+      <article class="stage" style="--pc:#20b688;--pc2:#147b5c">
+        <div class="shot"><img src="assets/p-teacher.webp" alt="Teacher portal: today's classes, marking to do and students who need a look." width="1920" height="1200" loading="lazy"></div>
+        <div class="cap">
+          <h2 class="role">Teachers</h2>
+          <p class="role-line">Today's classes, what to mark, who needs a look.</p>
+          <p class="tags"><i>Register</i><i>Assessments</i><i>Homework</i><i>Timetable</i></p>
+        </div>
+        <div class="float f1" data-depth="24"><img src="assets/frag/cap-1.webp" alt="" width="942" height="204"></div>
+        <div class="float f2" data-depth="-16"><img src="assets/frag/student-tile-2.webp" alt="" width="568" height="268"></div>
+      </article>
+      <article class="stage" style="--pc:#7c5cf0;--pc2:#5437c4">
+        <div class="shot"><img src="assets/p-student.webp" alt="Student portal: what's due, this week's lessons and how it's going." width="1920" height="1200" loading="lazy"></div>
+        <div class="cap">
+          <h2 class="role">Students</h2>
+          <p class="role-line">What's due, what's next, how it's going.</p>
+          <p class="tags"><i>My work</i><i>Routine</i><i>Progress</i><i>Planner</i></p>
+        </div>
+        <div class="float f1" data-depth="22"><img src="assets/frag/hw-card.webp" alt="" width="584" height="678"></div>
+        <div class="float f2" data-depth="-20"><img src="assets/frag/subj-maths.webp" alt="" width="788" height="422"></div>
+      </article>
+      <article class="stage" style="--pc:#f08a24;--pc2:#b85f08">
+        <div class="shot"><img src="assets/p-parent.webp" alt="Parent portal: the child's attendance, marks, fees and the week ahead." width="1920" height="1200" loading="lazy"></div>
+        <div class="cap">
+          <h2 class="role">Parents</h2>
+          <p class="role-line">Marks, attendance and fees, without having to ask.</p>
+          <p class="tags"><i>Progress</i><i>Attendance</i><i>Fees</i><i>Meetings</i></p>
+        </div>
+        <div class="float f1" data-depth="20"><img src="assets/frag/fees-card.webp" alt="" width="1200" height="462"></div>
+        <div class="float f2" data-depth="-14"><img src="assets/frag/subj-physics.webp" alt="" width="788" height="422"></div>
+      </article>
+    </div>
+    <p class="scroll-hint" aria-hidden="true"><span class="cue-line"></span>Keep scrolling</p>
+  </div>
+</section>
+
+<!-- ACT 3 · everything connected -->
+<section class="flow act" id="flow" data-bg="#070e1a" data-fg="#f3f6fa" data-fg2="#8ea2b8">
+  <div class="flow-pin">
+    <header class="flow-head">
+      <p class="eyebrow light"><span class="dot live"></span>Everything connected</p>
+      <h2 class="h-big">One update.<br><em class="glow">Everyone in the loop.</em></h2>
+      <p class="flow-line">Mark Adam present. Your team, Adam and his parents can all see his attendance in their own accounts.</p>
+      <ul class="feed" aria-label="What each portal shows a moment later">
+        <li class="feed-item" style="--pc:#1e88e5"><i></i><span><b>Admin team</b>Today’s attendance: 95%</span><em>just now</em></li>
+        <li class="feed-item" style="--pc:#7c5cf0"><i></i><span><b>Adam</b>You’ve attended 9 classes in a row</span><em>just now</em></li>
+        <li class="feed-item" style="--pc:#f08a24"><i></i><span><b>Parents</b>Adam was present for today’s class</span><em>just now</em></li>
+      </ul>
+    </header>
+    <div class="wire" aria-label="A register tap in the teacher portal updating the office, student and parent portals">
+      <svg class="wires" viewBox="0 0 1000 640" aria-hidden="true">
+        <path class="w-base" d="M 400 320 C 540 320, 520 110, 660 110"/>
+        <path class="w-base" d="M 400 320 C 540 320, 520 320, 660 320"/>
+        <path class="w-base" d="M 400 320 C 540 320, 520 530, 660 530"/>
+        <path class="w" d="M 400 320 C 540 320, 520 110, 660 110"/>
+        <path class="w" d="M 400 320 C 540 320, 520 320, 660 320"/>
+        <path class="w" d="M 400 320 C 540 320, 520 530, 660 530"/>
+      </svg>
+      <div class="node src"><span class="role-chip" style="--pc:#20b688;--pc2:#147b5c">Teacher</span><img src="assets/frag/student-tile.webp" alt="Register tile: Adam Khan, present, 100% attendance" width="568" height="268"><span class="tap" aria-hidden="true"></span></div>
+      <div class="node tgt t1"><span class="role-chip" style="--pc:#1e88e5;--pc2:#125da3">Admin team</span><img src="assets/frag/tile-attendance.webp" alt="Admin dashboard: attendance 95%" width="578" height="414"><span class="upd">Updated</span></div>
+      <div class="node tgt t2"><span class="role-chip" style="--pc:#7c5cf0;--pc2:#5437c4">Student</span><img src="assets/frag/att-student.webp" alt="Student portal: attendance 94%, 9 in a row" width="578" height="414"><span class="upd">Updated</span></div>
+      <div class="node tgt t3"><span class="role-chip" style="--pc:#f08a24;--pc2:#b85f08">Parent</span><img src="assets/frag/att-parent.webp" alt="Parent portal: attendance 94%, 18 lessons recorded" width="578" height="414"><span class="upd">Updated</span></div>
+      <i class="pulse" aria-hidden="true"></i><i class="pulse" aria-hidden="true"></i><i class="pulse" aria-hidden="true"></i>
+    </div>
+  </div>
+</section>
+
+<!-- ACT 4 · the assistant -->
+<section class="ai act" id="ai" data-bg="#04070d" data-fg="#f3f6fa" data-fg2="#8ea2b8">
+  <div class="ai-grid">
+    <div class="ai-copy">
+      <p class="eyebrow light"><span class="dot live"></span>ExamBinary AI Assistant</p>
+      <h2 class="h-big">A head start.<br><em class="glow">Just ask.</em></h2>
+      <p class="ai-line">Get help with lesson notes, presentations, quizzes and interviews. Tell the assistant what you need, then review what it prepares.</p>
+      <ul class="also">
+        <li class="feat" style="--c1:#43a2f1;--c2:#1673c8">
+          <span class="feat-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span>
+          <span class="feat-t"><b>AI interviews</b><span>Run AI interviews for students or potential hires.</span></span>
+          <span class="mini mini-ring" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="18"/><circle class="ring" cx="22" cy="22" r="18"/></svg><i>82</i></span>
+        </li>
+        <li class="feat" style="--c1:#2fc0d6;--c2:#0f8fa3">
+          <span class="feat-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M9 11h6M9 15h6M9 7h3"/></svg></span>
+          <span class="feat-t"><b>Class notes</b><span>Prepare notes your students can learn and revise from.</span></span>
+          <span class="mini mini-notes" aria-hidden="true"><i></i><i></i><i></i><em></em></span>
+        </li>
+        <li class="feat" style="--c1:#37c99b;--c2:#128a64">
+          <span class="feat-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M12 17v3M8 20h8M7 9h6M7 13h4"/></svg></span>
+          <span class="feat-t"><b>Lesson slides</b><span>Turn your next lesson topic into presentation slides.</span></span>
+          <span class="mini mini-slides" aria-hidden="true"><i></i><i></i><i></i></span>
+        </li>
+      </ul>
+    </div>
+    <div class="ai-demo">
+      <div class="orb" aria-hidden="true"></div>
+      <div class="chat" aria-label="Example of the assistant at work">
+        <div class="picks" role="tablist" aria-label="Examples">
+          <button class="pick on" role="tab" aria-selected="true" data-s="0" data-cur="link">Fee reminders</button>
+          <button class="pick" role="tab" aria-selected="false" data-s="1" data-cur="link">Write a quiz</button>
+          <button class="pick" role="tab" aria-selected="false" data-s="2" data-cur="link">Attendance</button>
+        </div>
+        <div class="composer">
+          <span class="prompt" id="aiPrompt">Remind every family with overdue fees</span><span class="caret" aria-hidden="true"></span>
+          <span class="send" aria-hidden="true">↑</span>
+        </div>
+        <div class="result" id="aiResult" aria-live="polite">
+          <div class="res">
+            <p class="res-title">13 reminders ready to send</p>
+            <div class="res-row"><span>Khan family</span><b>£378.00</b><small>22 days overdue</small></div>
+            <div class="res-row"><span>Osei family</span><b>£210.00</b><small>9 days overdue</small></div>
+            <div class="res-row dim"><span>and 11 more</span></div>
+            <div class="res-actions"><span class="res-btn go">Send 13 reminders</span><span class="res-btn">Cancel</span></div>
+          </div>
+        </div>
+        <p class="chat-note">Example data</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- band -->
+<section class="band act" aria-label="Everything Exam Binary covers" data-bg="#eef0f4" data-fg="#0e1b2c" data-fg2="#5b6676">
+  <div class="band-row" data-dir="-1"><div class="band-set">
+    <b>Admissions</b><i></i><b>Timetables</b><i></i><b>Attendance</b><i></i><b>Homework</b><i></i><b>Exams</b><i></i><b>Meetings</b><i></i><b>Fees</b><i></i><b>Reports</b><i></i>
+  </div><div class="band-set" aria-hidden="true">
+    <b>Admissions</b><i></i><b>Timetables</b><i></i><b>Attendance</b><i></i><b>Homework</b><i></i><b>Exams</b><i></i><b>Meetings</b><i></i><b>Fees</b><i></i><b>Reports</b><i></i>
+  </div></div>
+  <div class="band-row" data-dir="1"><div class="band-set">
+    <em>Staff</em><i></i><em>Expenses</em><i></i><em>Class chat</em><i></i><em>Interviews</em><i></i><em>Resources</em><i></i><em>Planner</em><i></i><em>Careers</em><i></i><em>Announcements</em><i></i>
+  </div><div class="band-set" aria-hidden="true">
+    <em>Staff</em><i></i><em>Expenses</em><i></i><em>Class chat</em><i></i><em>Interviews</em><i></i><em>Resources</em><i></i><em>Planner</em><i></i><em>Careers</em><i></i><em>Announcements</em><i></i>
+  </div></div>
+</section>
+
+<!-- waitlist -->
+<section class="wait act" id="waitlist" data-bg="#eef0f4" data-fg="#0e1b2c" data-fg2="#5b6676">
+  <div class="wait-copy">
+    <p class="eyebrow"><span class="dot live"></span>Let’s get started</p>
+    <h2 class="h-big">See ExamBinary <em class="glow">at work.</em></h2>
+    <p class="wait-line">Tell us what your institution needs. We’ll show you how your teachers, students and admin team can use ExamBinary in their everyday work.</p>
+    <ol class="steps">
+      <li><b>1</b><span>Book a demo</span></li>
+      <li><b>2</b><span>Explore the features that matter to your team</span></li>
+      <li><b>3</b><span>Get help setting up when you’re ready</span></li>
+    </ol>
+  </div>
+  <form class="wait-card" id="waitForm" novalidate>
+    <div class="wait-fields">
+      <label class="field"><span>Your name</span><input id="wName" name="name" type="text" autocomplete="name" placeholder="Alex Morgan" required></label>
+      <label class="field"><span>Email</span><input id="wEmail" name="email" type="email" autocomplete="email" placeholder="you@yourcentre.co.uk" required></label>
+      <label class="field"><span>Centre</span><input id="wCentre" name="centre" type="text" autocomplete="organization" placeholder="Bright Minds Tuition, Leeds"></label>
+      <div class="field">
+        <span>You are</span>
+        <div class="roles" role="radiogroup" aria-label="Your role">
+          <label class="role-pick"><input type="radio" name="role" value="Owner" checked><i>Owner</i></label>
+          <label class="role-pick"><input type="radio" name="role" value="Office"><i>Office</i></label>
+          <label class="role-pick"><input type="radio" name="role" value="Teacher"><i>Teacher</i></label>
+        </div>
+      </div>
+    </div>
+    <p class="wait-error" id="waitError" hidden></p>
+    <button class="btn btn-brand btn-lg mag wait-btn" type="submit" data-cur="link"><span>Book a demo</span></button>
+    <p class="wait-note">No spam. One email when your place is ready.</p>
+    <div class="wait-done" id="waitDone" hidden>
+      <span class="done-ic" aria-hidden="true">✓</span>
+      <b id="doneTitle">You're on the list.</b>
+      <p id="doneText"></p>
+      <a class="btn btn-brand mag" id="doneMail" href="#" hidden data-cur="link"><span>Send it by email</span></a>
+    </div>
+  </form>
+</section>
+
+<!-- close -->
+<section class="demo act" id="demo" data-bg="#eef0f4" data-fg="#0e1b2c" data-fg2="#5b6676">
+  <div class="demo-panel">
+    <div class="demo-copy">
+      <h2 class="h-cta">See it running <em>with your centre.</em></h2>
+      <p class="demo-line">A short walkthrough with your own classes and timetable.</p>
+      <div class="demo-actions">
+        <a class="btn btn-white btn-lg mag" href="mailto:hello@exambinary.co.uk?subject=Exam%20Binary%20demo" data-cur="link"><span>Book a demo</span></a>
+        <button class="mail mag" id="copyMail" type="button" data-cur="link"><span id="mailText">hello@exambinary.co.uk</span><small id="copyState">Copy</small></button>
+      </div>
+    </div>
+    <div class="crew" aria-label="The office, a teacher, a student and a parent">
+      <figure class="crew-m m1"><img src="assets/frag/av-office.webp" alt="" width="240" height="240" loading="lazy"><figcaption>Office</figcaption></figure>
+      <figure class="crew-m m2"><img src="assets/frag/av-teacher.webp" alt="" width="240" height="240" loading="lazy"><figcaption>Teacher</figcaption></figure>
+      <figure class="crew-m m3"><img src="assets/frag/av-student.webp" alt="" width="240" height="240" loading="lazy"><figcaption>Student</figcaption></figure>
+      <figure class="crew-m m4"><img src="assets/frag/av-parent.webp" alt="" width="240" height="240" loading="lazy"><figcaption>Parent</figcaption></figure>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/exam-binary-logo.png" alt="Exam Binary" width="800" height="216" loading="lazy">
+        <p>Tuition centre management for the UK. Admissions, classes, homework, exams, fees and AI, in one place.</p>
+      </div>
+      <nav class="foot-nav" aria-label="Footer">
+        <a href="#about" data-cur="link">About</a>
+        <a href="#portals" data-cur="link">Portals</a>
+        <a href="#flow" data-cur="link">Connected</a>
+        <a href="#ai" data-cur="link">AI</a>
+        <a class="btn btn-brand mag" href="#waitlist" data-cur="link"><span>Book a demo</span></a>
+      </nav>
+    </div>
+    <p class="wordmark" aria-hidden="true"><span>EXAM</span> <span>BINARY</span></p>
+    <div class="foot-bottom">
+      <span>© 2026 Exam Binary · Built in the UK by Neovogent</span>
+      <a href="#top" data-cur="link">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/MotionPathPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
